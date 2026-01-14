@@ -5,7 +5,7 @@
   <filter id='n' x='0' y='0'>
     <feTurbulence
       type='fractalNoise'
-      baseFrequency='0.6'
+      baseFrequency='0.63'
       numOctaves='1'
       stitchTiles='stitch'>
       <animate attributeName='seed' values='0;999;0' begin='0s' dur='333s' repeatCount='indefinite'/>
