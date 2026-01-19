@@ -12,16 +12,29 @@ body {
   font-size: 13pt;
   color: rgb(99,99,99);
   background: rgb(00,00,00);
-  padding: 1.25lvh 10lvw;
+  padding: 1.25lvh 5lvw;
   margin: 0;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-content: center;
   image-rendering: pixelated;
 }
 a {
   color:rgb(133,133,200);
+  &:hover { color: rgb(255,255,255); background: rgb(99,99,99); }
+}
+h1 {
+  padding:0;
+  margin:0;
+  line-height: 0.9;
+  letter-spacing: -5px;
+  text-align: center;
+  background: rgb(0,0,0);
+  white-space-collapse: preserve;
+}
+h2 {
+  line-height: 0.6;
+  letter-spacing: -2px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 img {
   max-height: 1024px;
@@ -55,4 +68,41 @@ details {
   50% {
     opacity: 0;
   }
+}
+.ui {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+.map {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  max-width: 25%;
+  h2, h3 {
+    padding:0;
+    margin:0;
+    white-space-collapse: preserve;
+  }
+}
+.key {
+  text-align: left;
+  line-height: 0.9;
+  letter-spacing: -1px;
+}
+.asciiart {
+  min-width:75%;
+}
+.dialog {
+  background: rgb(0,0,0);
+  list-style: none;
+  overflow: clip;
+  position: absolute;
+  inset: 0px;
+}
+.urhere {
+  color: rgb(255,255,255);
+}
+.fow {
+  color: rgb(33,33,33);
 }
