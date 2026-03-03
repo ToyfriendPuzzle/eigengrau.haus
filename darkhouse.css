@@ -44,13 +44,18 @@ img {
   margin:0;
 }
 .pictureframe {
+  display: inline-block;
   background: url('./eigengrau.svg');
   padding:0;
   margin:0;
   height:100%;
+  width: auto;
   max-height: 1024px;
   max-width: 1024px;
   line-height:0;
+}
+.small {
+  background: url('./eigengraulow.svg');
 }
 details {
   text-align:right;

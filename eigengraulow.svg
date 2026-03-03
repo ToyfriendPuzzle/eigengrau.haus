@@ -1,0 +1,20 @@
+<svg
+  xmlns='http://www.w3.org/2000/svg'
+  width='50' height='50'>
+
+  <filter id='n' x='0' y='0'>
+    <feTurbulence
+      type='fractalNoise'
+      baseFrequency='0.57'
+      numOctaves='1'
+      stitchTiles='stitch'>
+      <animate attributeName='seed' values='0;999;0' begin='0s' dur='333s' repeatCount='indefinite'/>
+    </feTurbulence>
+    <feComponentTransfer>
+      <feFuncR type='linear' slope='1' intercept='0'/>
+      <feFuncG type='linear' slope='1' intercept='0'/>
+      <feFuncB type='linear' slope='1.25' intercept='0'/>
+    </feComponentTransfer>
+  </filter>
+<rect width='50' height='50' filter="url(#n)" opacity='1'/>
+</svg>
