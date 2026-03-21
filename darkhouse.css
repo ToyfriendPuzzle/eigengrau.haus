@@ -9,7 +9,7 @@ html {
 }
 body {
   font-family: Anonymice;
-  font-size: 13pt;
+  font-size: 2lvh;
   color: rgb(99,99,99);
   background: rgb(00,00,00);
   padding: 1.25lvh 5lvw;
@@ -99,6 +99,12 @@ details {
 .asciiart {
   min-width:75%;
 }
+.dbox {
+  position:relative;
+  width:512px;
+  max-width:90%;
+  height:64px;
+}
 .dialog {
   background: rgb(0,0,0);
   list-style: none;
@@ -113,4 +119,22 @@ details {
 }
 .fow {
   color: rgb(33,33,33);
+}
+
+@media screen and (orientation:portrait) {
+  h1, h2, h3 {
+    font-size: 6.7vw;
+  }
+  .ui {
+    flex-flow:column;
+  }
+  .map {
+    max-width:90%;
+    h1, h2, h3 {
+      font-size:5vw;
+    }
+  }
+  body {
+    padding:1.25lvh 1.25lvh;
+  }
 }
