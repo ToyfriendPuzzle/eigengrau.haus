@@ -134,6 +134,12 @@ details {
       font-size:5vw;
     }
   }
+  img {
+    max-width:100%;
+  }
+  .pictureframe {
+    max-width:90%;
+  }
   body {
     padding:1.25lvh 1.25lvh;
   }
