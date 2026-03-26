@@ -20,12 +20,12 @@
     <div class='ui'>
       <div class='map'>
         <h1>hall1/room4</h1>
-        <h2> --------------------- </h2>
-        <h2>e :v |    hall1      | </h2>
-        <h2> -----=-------<span class='urhere'>----</span>---- </h2>
-        <h2>     |r1|r2|r3<span class='urhere'>|r4|</span>     </h2>
-        <h2>     |  :  :  <span class='urhere'><a href='../room3'>:</a>  :</span>?2   </h2>
-        <h2>     ---------<span class='urhere'>-=--</span>     </h2>
+        <h2> --------------------  </h2>
+        <h2>e :v |    hall1  |  |  </h2>
+        <h2> -----=-------<span class='urhere'>----</span>  |  </h2>
+        <h2>     |r1|r2|r3<span class='urhere'>|r4|</span>  |  </h2>
+        <h2>     |  :  :  <span class='urhere'><a href='../room3'>:</a>  <a href='../../hall2'>:</a></span>?2|  </h2>
+        <h2>     ---------<span class='urhere'>-=-|</span>  |  </h2>
         <h2>               ?1      </h2>
         <div class='key'>
           <h3>: = | doors</h3>
@@ -35,11 +35,25 @@
           <h3>  ? | unknown areas</h3>
         </div>
       </div>
-      <div style='display: flex; flex-flow: column;'>
+      <div class='pbox'>
         <div class='pictureframe'><img src="./leaflayer.gif"/></div>
         <div class='dbox'>
           <details>
-            <summary>?</summary>
+            <summary class='dialog'>
+              <div class='blink'>></div>the branches don't sway. even though you want them to.
+            </summary>
+            <div class='dialog'>
+              <details>
+                <summary class='dialog'>
+                  there are some <div class='blink'>notes</div> here, as well as an <a href='../../hall2'>eastern door</a>, and a locked southern door.
+                </summary>
+              </details>
+            </div>
+          </details>
+        </div>
+        <div class='dbox'>
+          <details>
+            <summary class='qbox'><div class='blink'>?</div></summary>
             <div style='display:inline-flex'><div class='pictureframe small'><img src="./boxcameranotes.gif"/></div><div class='pictureframe small'><img src="./boxcameraphoto.gif"/></div></div>
           </details>
         </div>
