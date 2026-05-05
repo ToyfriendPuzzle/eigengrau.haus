@@ -1,0 +1,85 @@
+<svg
+  xmlns='http://www.w3.org/2000/svg'
+  width='100%' height='100%'>
+  <ellipse cx='-6.125%' cy='50%' rx='2%' ry='48%' style='fill:white;'>
+   <animate
+     attributeName='cx'
+     begin='0s'
+     dur='0.125s'
+     from='-6.125%'
+     to='6.125%'
+     repeatCount='indefinite' />
+  </ellipse>
+  <ellipse cx='6.125%' cy='50%' rx='2%' ry='48%' style='fill:white;'>
+   <animate
+     attributeName='cx'
+     begin='0s'
+     dur='0.125s'
+     from='6.125%'
+     to='18.625%'
+     repeatCount='indefinite' />
+  </ellipse>
+  <ellipse cx='18.625%' cy='50%' rx='2%' ry='48%' style='fill:white;'>
+   <animate
+     attributeName='cx'
+     begin='0s'
+     dur='0.125s'
+     from='18.625%'
+     to='31.125%'
+     repeatCount='indefinite' />
+  </ellipse>
+  <ellipse cx='31.125%' cy='50%' rx='2%' ry='48%' style='fill:white;'>
+   <animate
+     attributeName='cx'
+     begin='0s'
+     dur='0.125s'
+     from='31.125%'
+     to='43.625%'
+     repeatCount='indefinite' />
+  </ellipse>
+  <ellipse cx='43.625%' cy='50%' rx='2%' ry='48%' style='fill:white;'>
+   <animate
+     attributeName='cx'
+     begin='0s'
+     dur='0.125s'
+     from='43.625%'
+     to='56.125%'
+     repeatCount='indefinite' />
+  </ellipse>
+  <ellipse cx='56.125%' cy='50%' rx='2%' ry='48%' style='fill:white;'>
+   <animate
+     attributeName='cx'
+     begin='0s'
+     dur='0.125s'
+     from='56.125%'
+     to='68.625%'
+     repeatCount='indefinite' />
+  </ellipse>
+  <ellipse cx='68.625%' cy='50%' rx='2%' ry='48%' style='fill:white;'>
+   <animate
+     attributeName='cx'
+     begin='0s'
+     dur='0.125s'
+     from='68.625%'
+     to='81.125%'
+     repeatCount='indefinite' />
+  </ellipse>
+  <ellipse cx='81.125%' cy='50%' rx='2%' ry='48%' style='fill:white;'>
+   <animate
+     attributeName='cx'
+     begin='0s'
+     dur='0.125s'
+     from='81.125%'
+     to='93.625%'
+     repeatCount='indefinite' />
+  </ellipse>
+  <ellipse cx='93.625%' cy='50%' rx='2%' ry='48%' style='fill:white;'>
+   <animate
+     attributeName='cx'
+     begin='0s'
+     dur='0.125s'
+     from='93.625%'
+     to='106.125%'
+     repeatCount='indefinite' />
+  </ellipse>
+</svg>

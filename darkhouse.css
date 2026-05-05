@@ -18,7 +18,7 @@ body {
 }
 a {
   color:rgb(133,133,200);
-  &:hover { color: rgb(255,255,255); background: rgb(99,99,99); }
+  &:hover { color: rgb(255,255,255); }
 }
 h1 {
   padding:0;
@@ -56,6 +56,9 @@ img {
 }
 .small {
   background: url('./eigengraulow.svg');
+}
+.light {
+  background: url('./eigengraulight.svg');
 }
 details {
   text-align:right;
@@ -104,6 +107,8 @@ details {
   width:512px;
   max-width:90%;
   height:64px;
+  margin:0;
+  padding:0;
 }
 .pbox {
   display:flex;
